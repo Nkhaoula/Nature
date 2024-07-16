@@ -1,0 +1,94 @@
+body{ 
+    margin : 0 auto; 
+    padding: 0 auto;
+}
+.col_1 {width: 8.333333%;}
+.col_2 {width: 16.666666%;}
+.col_3 {width: 25%; margin-left: 0 auto;}
+.col_4 {width: 33.333333%;text-align: center;}
+.col_5 {width: 41.666666%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.333333%;}
+.col_8 {width: 66.666666%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.333333%;}
+.col_11 {width:91.666666%;}
+.col_12 {width: 100%;}
+header{
+    background-image: url(../img/bg.jpg);
+}
+.logo{
+    width: 5%;
+    margin: 5px;
+}
+nav, ul{ 
+    display: flex;
+    list-style-type: none;
+}
+nav, ul, li{
+    margin-right: 50px;
+}
+nav, ul, li, a{
+    color:white;
+    text-decoration: none;
+}
+h1{
+     text-align:left;
+     color: white;
+     margin-top: 15%;
+     margin-left: 10%;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+p{
+    color: white;
+    margin-left: 5%;
+}
+.row {
+    display: flex;
+    min-height: 90px;
+    justify-content: space-around   ;
+}
+p{
+    color: black;
+}
+.icon-content{
+ font-size: 30px;
+ color: green;
+}
+.space_around{
+    justify-content: space-around;
+    display: flex;
+}
+.plantes{
+    color: black;
+}
+h2{
+    font-size: 30px ;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .col_2{width: 100%;}
+    .col_3{width: 100%;}
+    .col_4{width: 100%;}
+    .col_5{width: 100%;}
+    .col_6{width: 100%;}
+    .col_9{width: 100%;}
+
+    .slide img{
+        width: 100%;
+    }
+
+    nav{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .panier{
+        margin-bottom: 10px;
+    }
+}
